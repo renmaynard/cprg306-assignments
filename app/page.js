@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   const assignments = [2,3,4,5,6,7,8,9,10,11,12,13,14,15]
-  const lastAssignment = 5;
+  const lastAssignment = 6;
 
   return (
     <div>
