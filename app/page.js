@@ -2,7 +2,7 @@ import {StudentInfo} from './student-info'
 import Link from 'next/link';
 
 export default function Home() {
-  const assignments = [2,3,4,5,6,7,8,9]
+  const assignments = [2,3,4,5,6,7,8]
   const lastAssignment = 8;
 
   return (
@@ -19,6 +19,7 @@ export default function Home() {
           <li key={assignment}> Assignment {assignment} - not done</li>
         ))}
       </ul>
+      <Link href="/week10">Assignment 9</Link>
     </div>
   );
 }
